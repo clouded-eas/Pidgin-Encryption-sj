@@ -1,0 +1,650 @@
+# Pidgin-encryption po file for German.
+# Copyright (C) 2004 Karim Malhas
+# This file is distributed under the GPL
+# Karim Malhas <karim@malhas.de>, Stuttgart 2004
+# Björn Voigt <bjoern@cs.tu-berlin.de>, Berlin 2009
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-encryption\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2009-11-30 12:33+0100\n"
+"Last-Translator: Björn Voigt <bjoern@cs.tu-berlin.de>\n"
+"Language-Team: Björn Voigt <bjoern@cs.tu-berlin.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Ungültige Schlüsselgröße"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Schlüssel kürzer als 512 Bit sind SEHR unsicher."
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Schlüssel > 4096 Bit vergrößern\n"
+"Nachrichten unnötig und verursachen\n"
+"Probleme bei der Übertragung der Nachrichten"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Generiere Schlüssel"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Kein Schlüssel zum erneuten Generieren ausgewählt!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "OK"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Verschlüsselungsprotokoll:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Schlüssellänge:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "Ok"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Lösche Schlüssel"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Konto"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Name"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Bit"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Fingerabdruck des Schlüssels"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Konfiguration"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Schlüssel automatisch annehmen, wenn noch keiner vorhanden ist"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Widersprüchliche Schlüssel automatisch annehmen (Sicherheitsrisiko)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr ""
+"Bei Empfang einer verschlüsselten Nachricht automatisch auch verschlüsseln"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Verschlüsselungsfähigkeit mitteilen"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Automatisch verschlüsseln falls Buddy das Plugin hat"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Zeige Schloß-Icon für jede Zeile des Chats"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Ort der Schlüsseldatei"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Erzeuge Schlüsseldateien"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Schlüssel neu generieren"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Fingerabdruck in die Zwischenablage kopieren"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Lokale Schlüssel"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Vertrauenswürdige Buddy Schlüssel"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Neue Buddy Schlüssel"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Keine Schlüsseldateien im Pfad"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Absoluter Pfad notwendig"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Die Schlüsseldateien konnten nicht erzeugt werden"
+
+#: cryptutil.c:132
+#, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Ungültige Base64 Daten, Länge %u\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr ""
+"Dieser Schlüssel ist zu groß für dieses Protokoll. Das Senden ist nicht "
+"möglich."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Letzte ausgehende Nachricht nicht richtig empfangen - reinitialisiere"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Empfangene Nachricht mit falschem Schlüssel verschlüsselt"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Entschlüsselungsfehler - bitte um erneutes senden..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Fordere Schlüssel an..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr ""
+"Kein Schlüssel, um Nachricht erneut zu versenden.  Die Nachricht ist "
+"verloren."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Ausgehende Nachricht verloren."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-Verschlüsselung"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Verschlüsselt Unterhaltungen mit RSA-Verschlüsselung."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"RSA Verschlüsselung mit Schlüsseln bis zu 4096 Bit, unter Benutzung der "
+"Mozilla NSS Verschlüsselungsbibliothek.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins, Übersetzung von Björn Voigt und Karim Malhas"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Automatisches Verschlüsseln deaktivieren"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Automatisches Verschlüsseln aktivieren"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Generiere neues Schlüsselpaar..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Fehler beim Generieren des Schlüssels."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Widersprüchlicher Schlüssel erhalten!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Fehler beim Ändern des Zugriffsmodus für die Datei: %s\n"
+"Kann Schlüssel nicht speichern."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Fehler (2) beim Ändern des Zugriffsmodus für die Datei: %s\n"
+"Kann Schlüssel nicht speichern."
+
+#: keys.c:484
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Falsche Zugriffsrechte auf Schlüsseldatei geändert: %s\n"
+"Pidgin-Encryption speichert keine Schlüssel in welt- oder gruppenlesbaren "
+"Dateien."
+
+#: keys.c:746
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Falsche Zugriffsrechte auf Schlüsseldatei geändert: %s\n"
+"Pidgin-Encryption benutzt keine Schlüssel in welt- oder gruppenlesbaren "
+"Dateien."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Pidgin-Encryption Schlüssel erhalten"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "%s Schlüssel für '%s' erhalten"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Schlüsselfingerabdruck: %*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Möchten Sie diesen Schlüssel annehmen?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Nein"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Annehmen und Speichern"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Nur für diese Sitzung"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "WIDERSPRÜCHLICHER Pidgin-Encryption Schlüssel empfangen"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* WARNUNG ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "WIDERSPRÜCHLICHER %s Schlüssel für '%s' empfangen!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Dies könnte eine 'Man-in-the-middle' Attacke sein\n"
+"oder es gibt sich jemand falsches für Ihren Buddy aus.\n"
+"Dem Schlüssel sollte erst vertraut werden, nachdem Sie Ihren Buddy "
+"überprüft\n"
+"haben, ob der Schlüssel wirklich von ihm generiert worden ist."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Generiere RSA Schlüsselpaar für %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Dieser Vorgang kann eine Weile dauern..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Konnte Schlüssel nicht generieren. NSS Fehler:  %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Fehler beim Parsen des RSANSS Schlüssels\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Falsche Signatur in Nachricht (Länge %d, Mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Pidgin-Verschlüsselung"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Verschlüsselung deaktivieren"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr ""
+"Die zuletzt empfangene Nachricht wurde mit Pidgin-Encryption verschlüsselt"
+
+#, fuzzy
+#~ msgid "Encrypt Outgoing Messages"
+#~ msgstr "Ausgehende Nachricht verloren."
+
+#~ msgid "Tx: capable"
+#~ msgstr "Tx: fähig"
+
+#~ msgid ""
+#~ "Your buddy appears to have the Pidgin-Encryption plugin. Still, your next "
+#~ "outgoing message will NOT be encrypted  by the Pidgin-Encryption plugin"
+#~ msgstr ""
+#~ "Buddy scheint das Pidgin-Encryption Plugin zu haben. Die nächste "
+#~ "ausgehende Nachricht wird trotzdem NICHT verschlüsselt werden."
+
+#~ msgid "Tx: secure"
+#~ msgstr "Tx: sicher"
+
+#~ msgid ""
+#~ "Your next outgoing message will be encrypted  by the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Die nächste ausgende Nachricht wird vom Pidgin-Encryption Plugin "
+#~ "verschlüsselt."
+
+#~ msgid "Tx: plain"
+#~ msgstr "Tx: klartext"
+
+#~ msgid ""
+#~ "Your next outgoing message will NOT be encrypted  by the Pidgin-"
+#~ "Encryption plugin"
+#~ msgstr ""
+#~ "Die nächste ausgehende Nachricht wird NICHT von Pidgin-Encryption "
+#~ "verschlüsselt werden. "
+
+#~ msgid "Rx: secure"
+#~ msgstr "Rx: sicher"
+
+#~ msgid "Rx: plain"
+#~ msgstr "Rx: klartext"
+
+#~ msgid ""
+#~ "The last message received was NOT encrypted  with the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Die letzte empfangene Nachricht war NICHT mit Pidgin-Encryption "
+#~ "verschlüsselt"
+
+#~ msgid ""
+#~ "Compiled with '%s', running with '%s'.  Pidgin-Encryption will probably "
+#~ "not run right.\n"
+#~ msgstr ""
+#~ "Kompiliert für'%s', ausgeführt mit '%s'.  Pidgin-Encryption wird "
+#~ "warscheinlich nicht richtig laufen.\n"
+
+#~ msgid ""
+#~ "Pidgin-Encryption plugin was compiled with a different version of "
+#~ "Pidgin.  You may experience problems."
+#~ msgstr ""
+#~ "Pidgin-Encryption Plugin wurde gegen eine andere Pidgin Version "
+#~ "kompiliert. Es können Probleme auftreten."
+
+#~ msgid "Currently cached keys"
+#~ msgstr "Momentan gecachte Schlüssel"
+
+#~ msgid "Key Type"
+#~ msgstr "Schlüsseltyp"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokoll"
+
+#~ msgid "private"
+#~ msgstr "privat"
+
+#~ msgid "public"
+#~ msgstr "öffentlich"
+
+#~ msgid "Error parsing RSANSS nonce/key\n"
+#~ msgstr "Fehler beim parsen des RSANSS Nonce\n"
+
+#~ msgid "Error decoding Base64 RSANSS Public key\n"
+#~ msgstr "Fehler beim dekodieren des öffentlichen Base64 RSANSS Schlüssels \n"
+
+#~ msgid "Error Base64 decoding RSANSS Public key\n"
+#~ msgstr "Fehler beim dekodieren des öffentlichen Base64 RSANSS Schlüssels \n"
+
+#~ msgid "Error decoding RSANSS Public key\n"
+#~ msgstr "Fehler beim dekodieren des öffentlichen RSANSS Schlüssels\n"
+
+#~ msgid "Error parsing RSANSS Private key\n"
+#~ msgstr "Fehler beim parsen des privaten RSANSS Schlüssels\n"
+
+#~ msgid "Error parsing Base64 in RSANSS Private Key\n"
+#~ msgstr "Fehler beim parsen des Base64 im privaten RSANSS Schlüssel\n"
+
+#~ msgid "Error creating symmetric key: unable to load private key\n"
+#~ msgstr ""
+#~ "Fehler beim erstellen des symmetrischen Schlüssels: der private Schlüssel "
+#~ "kann nicht geladen werden\n"
+
+#~ msgid "Error decoding RSANSS Private key\n"
+#~ msgstr "Fehler beim dekodieren des privaten RSANSS Schlüssel.\n"
+
+#~ msgid "No Nonce in message\n"
+#~ msgstr "Kein Nonce in Nachricht\n"
+
+#~ msgid "Bad Nonce in message\n"
+#~ msgstr "Ungültiges Nonce in Nachricht\n"
+
+#~ msgid "Can't load the NSS plugin\n"
+#~ msgstr "Kann das NSS Plugin nicht laden.\n"
+
+#~ msgid ""
+#~ "Pidgin was not compiled with the NSS plugin enabled.  Pidgin-Encryption "
+#~ "requires the NSS plugin to function."
+#~ msgstr ""
+#~ "Pidgin wurde ohne das NSS plugin kompiliert. Pidgin-Encryption braucht "
+#~ "das NSS plugin um zu funktionieren."
+
+#~ msgid "PK11_PubDecryptRaw Failed\n"
+#~ msgstr "PK11_PubdecryptRaw fehlgeschlagen\n"
+
+#~ msgid "Not a multiple of block len: %d %d %d\n"
+#~ msgstr "Kein Vielfaches der Blocklänge: %d %d %d\n"
+
+#~ msgid "PubDecryptRaw failed %d\n"
+#~ msgstr "PubDecryptRaw fehlgeschlagen %d\n"
+
+#~ msgid "OAEP unpadding failed\n"
+#~ msgstr "OAEP unpadding fehlgeschlagen\n"
+
+#~ msgid "Bad msg_len in Auth\n"
+#~ msgstr "Ungültige msg_len in Auth\n"
+
+#~ msgid "PK11_PubEncryptRaw Failed\n"
+#~ msgstr "PK11_PubEncryptRaw fehlgeschlagen\n"
+
+#~ msgid " (Pidgin "
+#~ msgstr " (Pidgin"
+
+#~ msgid ")"
+#~ msgstr ")"
+
+#~ msgid ", not this version."
+#~ msgstr ", nicht diese Version"
+
+#~ msgid "done loading\n"
+#~ msgstr "fertig mit laden\n"
+
+#~ msgid "find key by name: %s\n"
+#~ msgstr "Schlüssel anhand des Namen finden: %s\n"
+
+#~ msgid "Error!  Can't find own key for %s\n"
+#~ msgstr "Fehler!  Kann eigenen Schlüssel für %s nicht finden.\n"
+
+#~ msgid "Dumping public keyring:\n"
+#~ msgstr "Verwerfe offentliches Schlüsselbund:\n"
+
+#~ msgid "Encryption Manager"
+#~ msgstr "Verschüsslungsmanager"
+
+#~ msgid "Error!  Can't make new key for %s\n"
+#~ msgstr "Fehler!  Kann keinen neuen Schlüssel für %s generieren\n"
+
+#~ msgid "Key ring::%*s::%p\n"
+#~ msgstr "Schlüsselbund::%*s::%p\n"
+
+#~ msgid "Removing key for %s\n"
+#~ msgstr "Entferne Schlüssel für %s\n"
+
+#~ msgid "received_key\n"
+#~ msgstr "received_key\n"
+
+#~ msgid ": Prot "
+#~ msgstr ": Prot "
+
+#~ msgid "Error in received key\n"
+#~ msgstr "Fehler in empfangenem Schlüssel\n"
+
+#~ msgid "Unknown protocol type: %10s\n"
+#~ msgstr "Unbekanntes Protokoll: %10s\n"
+
+#~ msgid "Error in key header\n"
+#~ msgstr "Fehler im Schlüsselkopf\n"
+
+#~ msgid "Length doesn't match in add_key\n"
+#~ msgstr "Länge in add_key passt nicht\n"
+
+#~ msgid "After key:%s\n"
+#~ msgstr "Nach Schlüssel:%s\n"
+
+#~ msgid "Resend"
+#~ msgstr "Erneut versenden"
+
+#~ msgid "Checking key file %s for name %s\n"
+#~ msgstr "Prüfe Schlüsseldatei %s für %s\n"
+
+#~ msgid "Invalid permissions, rejecting file: %s\n"
+#~ msgstr "Falsche Berechtigungen, akzeptiere Datei nicht: %s\n"
+
+#~ msgid "Got Name\n"
+#~ msgstr "Name gefunden\n"
+
+#~ msgid "Got Match\n"
+#~ msgstr "Übereinstimmung gefunden\n"
+
+#~ msgid "Saving key to file:%s:%p\n"
+#~ msgstr "Speichere Schlüssel in Datei:%s:%p\n"
+
+#~ msgid "Error opening key file %s for write\n"
+#~ msgstr "Fehler beim öffnen der Schlüsseldatei %s für Schreibzugriff\n"
+
+#~ msgid "Unable to change file mode, aborting\n"
+#~ msgstr "Kann Dateimodus nicht ändern, Abbruch\n"
+
+#~ msgid "Changed mode, but still wonky.  Aborting.\n"
+#~ msgstr "Modus geändert, trozdem noch instabil. Abbruch.\n"
+
+#~ msgid "Key file '%s' no longer read-only.\n"
+#~ msgstr "Schlüsseldatei '%s' nicht mehr nur lesbar.\n"
+
+#~ msgid "Bad permissions on key file: %s\n"
+#~ msgstr "Falsche Zugriffsrechte auf Schlüsseldatei: %s\n"
+
+#~ msgid "I won't save to a world-accesible key file.\n"
+#~ msgstr "Speichere nicht in eine Welt-lesbare Schlüssel Datei.\n"
+
+#~ msgid "here\n"
+#~ msgstr "hier\n"
+
+#~ msgid "Error opening key file %s\n"
+#~ msgstr "Fehler beim öffnen der Schlüsseldatei %s\n"
+
+#~ msgid "Error opening key file"
+#~ msgstr "Fehler beim öffnen der Schlüsseldatei"
+
+#~ msgid "Wah!  I moved a file and now it is gone\n"
+#~ msgstr "Whoa! Ich habe eine Datei verschoben und jetzt fehlt sie !\n"
+
+#~ msgid "Problem in key file.  Increase key buffer size.\n"
+#~ msgstr "Fehler in Schlüsseldatei.  Schlüssel Puffergröße erhöhen."
+
+#~ msgid "load_keys() %i: invalid protocol: %s\n"
+#~ msgstr "load_keys() %i: ungültiges Protokoll: %s\n"
+
+#~ msgid "load_keys() %i: Added: %*s %s %s\n"
+#~ msgstr "load_keys() %i: Hinzugefügt: %*s %s %s\n"
+
+#~ msgid "Bad key (%s) in file: %s\n"
+#~ msgstr "Ungültiger Schlüssel  (%s) in Datei: %s\n"
+
+#~ msgid "Couldn't open file:%s\n"
+#~ msgstr "Kann Datei nicht öffnen:%s\n"
+
+#~ msgid "Error opening file"
+#~ msgstr "Fehler beim öffnen der Datei."
+
+#~ msgid "No public key found for %s\n"
+#~ msgstr "Kein öffentlicher Schlüssel für %s gefunden\n"
+
+#~ msgid "  Making one from private key and saving...\n"
+#~ msgstr "  Erstelle einen vom privaten Schlüssel und speichere..."
+
+#~ msgid "Built Nonce:%d:%s\n"
+#~ msgstr "Nonce erstellt:%d:%s\n"
+
+#~ msgid "Error parsing RSANSS nonce\n"
+#~ msgstr "Fehler beim parsen des RSANSS Nonce\n"
+
+#~ msgid "Checking for old prefs file (%s)...\n"
+#~ msgstr "Prüfe auf alte Einstellungsdatei (%s)...\n"
+
+#~ msgid "Converting...\n"
+#~ msgstr "Konvertiere...\n"
+
+#~ msgid "Bad Preference Key %s\n"
+#~ msgstr "Ungültiger Einstellungsschlüssel '%s'\n"
+
+#~ msgid "Deleting old prefs\n"
+#~ msgstr "Lösche alte Einstellungen\n"
+
+#~ msgid "response"
+#~ msgstr "antwort"

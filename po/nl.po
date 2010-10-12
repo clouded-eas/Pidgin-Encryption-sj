@@ -1,0 +1,420 @@
+# Pidgin-encryption po file for Dutch.
+# Copyright (C) 2005 Menno Jonkers
+# This file is distributed under the GPL
+# Menno Jonkers <pidgin-encryption  jonkers com>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-encryption\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2007-10-30 09:43+0100\n"
+"Last-Translator: Menno Jonkers <pidgin-encryption  jonkers com>\n"
+"Language-Team: Menno Jonkers <pidgin-encryption  jonkers com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Foutieve sleutellengte"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Sleutels korter dan 512 bits zijn ERG onveilig"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Sleutels langer dan 4096 bits maken\n"
+"berichten erg lang, waardoor\n"
+"communicatieproblemen ontstaan"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Genereer sleutels"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Geen sleutel gekozen om opnieuw te genereren!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "OK"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Versleutelingsprotocol:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Sleutellengte:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "Ok"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Verwijder sleutel"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Account"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Naam"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Bits"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Vingerafdruk sleutel"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Instellingen"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Accepteer sleutel automatisch als deze nog niet bekend is"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Accepteer strijdige sleutels automatisch (beveiligingsrisico)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Versleutel automatisch als versleuteld bericht ontvangen is"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Adverteer de versleutelingsmogelijkheid"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Versleutel automatisch als contact de plugin heeft"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Toon sloticoon bij elk bericht"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Lokatie sleutelbestand"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Maak sleutelbestanden"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Genereer sleutel opnieuw"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Kopieer vingerafdruk naar klembord"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Lokale sleutels"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Vertrouwde contactsleutels"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Recente contactsleutels"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Geen sleutelbestanden gevonden op pad"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Absoluut pad vereist"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Maken sleutelbestanden mislukt"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Ongeldige Base64 gegevens, lengte %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "Deze accountsleutel is te lang voor dit protocol.  Kan niet versturen."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Laatst verzonden bericht niet goed ontvangen - wordt herstart"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Ontvangen bericht versleuteld met verkeerde sleutel"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Fout bij ontsleutelen - vraag om opnieuw sturen..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Sleutel wordt opgevraagd..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "Geen sleutel om bericht opnieuw te sturen.  Bericht verloren."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Uitgaand bericht verloren."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-encryptie"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Versleutelt gesprekken met RSA encryptie."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"RSA-encryptie met sleutels tot 4096 bits, door middel van de Mozilla NSS "
+"cryptografiefuncties.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Zet auto-versleutelen uit"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Zet auto-versleutelen aan"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Een nieuw sleutelpaar aan het maken..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Fout bij het maken van sleutel."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Strijdige sleutel ontvangen!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Fout bij veranderen toegangsmode van bestand: %s\n"
+"Kan sleutel niet opslaan."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Fout (2) bij veranderen toegangsmode van bestand: %s\n"
+"Kan sleutel niet opslaan."
+
+#: keys.c:484
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Permissies van sleutelbestand gewijzigd voor: %s\n"
+"Pidgin-encryptie zal geen sleutels opslaan in een wereld- of groep-"
+"toegankelijk bestand."
+
+#: keys.c:746
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Permissies van sleutelbestand gewijzigd voor: %s\n"
+"Pidgin-encryptie zal geen sleutels gebruiken uit een wereld- of groep-"
+"toegankelijk bestand."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Pidgin-encryptie sleutel ontvangen"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "%s sleutel ontvangen voor '%s'"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Vingerafdruk sleutel:%*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Wilt u deze sleutel accepteren?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Nee"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Accepteer en sla op"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Alleen voor deze sessie"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "STRIJDIGE Pidgin-encryptie sleutel ontvangen"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ***** WAARSCHUWING ***** "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "STRIJDIGE %s sleutel ontvangen voor '%s'!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Dit kan een man-in-the-middle aanval zijn, of\n"
+"iemand die zich voordoet als uw contact.\n"
+"Ga bij uw contact na of die deze nieuwe sleutel\n"
+"heeft gemaakt, voordat u de sleutel vertrouwd."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Bezig met genereren van RSA-sleutelpaar voor %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Dit kan enige tijd duren..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Kon geen sleutel genereren.  NSS fout: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Fout bij parsen RSANSS sleutel\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Foutieve handtekening op bericht (len %d, mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Zet versleutelen aan"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Zet versleutelen uit"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr ""
+"Het laatst ontvangen bericht was versleuteld met de Pidgin-encryptie plugin"
+
+#, fuzzy
+#~ msgid "Encrypt Outgoing Messages"
+#~ msgstr "Versleutel uitgaand"
+
+#~ msgid "Tx: capable"
+#~ msgstr "Zd: mogelijk"
+
+#~ msgid ""
+#~ "Your buddy appears to have the Pidgin-Encryption plugin. Still, your next "
+#~ "outgoing message will NOT be encrypted  by the Pidgin-Encryption plugin"
+#~ msgstr ""
+#~ "Uw contact lijkt de Pidgin-encryptie plugin te hebben.  Maar uw volgende "
+#~ "uitgaande bericht zal NIET worden gecodeerd door de Pidgin-encryptie "
+#~ "plugin"
+
+#~ msgid "Tx: secure"
+#~ msgstr "Zd: veilig"
+
+#~ msgid ""
+#~ "Your next outgoing message will be encrypted  by the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Uw volgende uitgaande bericht zal versleuteld worden door de Pidgin-"
+#~ "encryptie plugin"
+
+#~ msgid "Tx: plain"
+#~ msgstr "Zd: onbeveiligd"
+
+#~ msgid ""
+#~ "Your next outgoing message will NOT be encrypted  by the Pidgin-"
+#~ "Encryption plugin"
+#~ msgstr ""
+#~ "Uw volgende uitgaande bericht zal NIET versleuteld worden door de Pidgin-"
+#~ "encryptie plugin"
+
+#~ msgid "Rx: secure"
+#~ msgstr "Ov: veilig"
+
+#~ msgid "Rx: plain"
+#~ msgstr "Ov: onbeveiligd"
+
+#~ msgid ""
+#~ "The last message received was NOT encrypted  with the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Het laatst ontvangen bericht was NIET versleuteld met de Pidgin-encryptie "
+#~ "plugin"
+
+#~ msgid ""
+#~ "Compiled with '%s', running with '%s'.  Pidgin-Encryption will probably "
+#~ "not run right.\n"
+#~ msgstr ""
+#~ "Gecompileerd met '%s', draaiend onder '%s'.  Pidgin-encryptie zal "
+#~ "waarschijnlijk niet goed draaien.\n"
+
+#~ msgid ""
+#~ "Pidgin-Encryption plugin was compiled with a different version of "
+#~ "Pidgin.  You may experience problems."
+#~ msgstr ""
+#~ "Pidgin-encryptie plugin is gecompileerd met een andere versie van "
+#~ "Pidgin.  Dit kan problemen veroorzaken."

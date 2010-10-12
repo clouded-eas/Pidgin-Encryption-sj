@@ -1,0 +1,452 @@
+# Simplified Chinese translation of Pidgin-encryption.
+# Copyright (C) 2007 Strong Chen
+# This file is distributed under the GPL license.
+# Strong Chen <sctronlinux@gmail.com>, 2007.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-encryption 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2006-02-21 11:08+0800\n"
+"Last-Translator: Strong Chen <sctronlinux@gmail.com>\n"
+"Language-Team: Chinese/Simplified <sctronlinux@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "不正确的密钥长度"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "密钥长度小于 512 位是非常不安全的"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"密钥长度大于 4096 位会使得信息\n"
+"內容过长，导致传送消息时发生\n"
+"问题"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "产生密钥"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "请选择一把旧密钥以重新生成新的密钥!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "确定"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "加密协议"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "密钥长度:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "取消"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "确定"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "刪除密钥"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "帐号"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "名称"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "位"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "密钥指纹"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "设定"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "自动接受新的密钥"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "自动接受与使用中不一致密钥(有安全风险)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "送出加密信息后, 此后信息自动加密"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "广播传送加密内容的兼容性"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "如果对方支持加密插件, 条信息自动加密"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "每一行对话中显示代表已加密信息的小图标"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "密钥文件位置"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "建立密钥文件"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "重新产生密钥"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "复制指纹到剪切板"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "本机密钥管理"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "已信任的好友密钥"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "最近收到的好友密钥"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "找不到密钥文件"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "请使用绝对路径"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "无法建立密钥文件"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "无效的 Base64 密码数据, 长度 %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "此账户密钥太长. 无法发送."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "上一条送出的消息可能沒被接收到 - 重置中"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "收到的消息是由错误的密钥加密的"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "解密时发生错误 - 要求重新发送..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "向对方请求密钥中..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "沒有密钥可以重送消息. 消息丢失."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "丢失了送出的消息."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-Encryption"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "使用 RSA 加密通信"
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr "RSA 加密密钥长度为 4096 位, 使用 Mozilla NSS 密码函数库.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins, translation by Strong Chen"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "关闭自动加密"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "启动自动加密"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "产生新密钥中..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "产生新密钥发生错误."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "收到不一致的密钥!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"错误: 试图改变文件存储模式: %s\n"
+"无法保存密钥."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"错误(2): 试图改变文件存储模式: %s\n"
+"无法保存密钥."
+
+#: keys.c:484
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"密钥文件权限不正确: %s\n"
+"Pidgin-Encryption 不会将密钥保存为任何人都可以存取的文件."
+
+#: keys.c:746
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"密钥文件权限不正确: %s\n"
+"Pidgin-Encryption 不会将密钥保存为任何人都可以存取的文件."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "已收到 Pidgin-Encryption 密钥"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "%s 密钥收于 '%s'"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "密钥指纹:%*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "是否要接受此密钥?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "拒绝"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "接受并保存"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "只在此次对话中有效"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "接收到不一致的 Pidgin-Encryption 密钥"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ***** 警 告 ***** "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "发现不一致的 %s 密钥, 对方为 '%s'!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"现在可能存在截包黑客攻击, \n"
+"或者有人在假装成您的好友.\n"
+"您应该与好友检查一下\n"
+"在确认之前他们是否产生了新的密钥."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "正在产生 %s 的 RSA 密钥"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "可能需要点时间，请稍候..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "无法产生密钥.  NSS 错误: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "处理 RSANSS 密钥时发生错误\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "消息中包含不正确的签名 (len %d, mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+#, fuzzy
+msgid "Enable Encryption"
+msgstr "启用加密功能"
+
+#: state_ui.c:146
+#, fuzzy
+msgid "Disable Encryption"
+msgstr "关闭加密功能"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr "上一条收到的消息是使用 Pidgin-Encryption插件 加密的"
+
+#~ msgid "Encrypt Outgoing Messages"
+#~ msgstr "加密送出的消息"
+
+#~ msgid "Tx: capable"
+#~ msgstr "传送: capable"
+
+#~ msgid ""
+#~ "Your buddy appears to have the Pidgin-Encryption plugin. Still, your next "
+#~ "outgoing message will NOT be encrypted  by the Pidgin-Encryption plugin"
+#~ msgstr ""
+#~ "您的好友支持 Pidgin-Encryption 插件.不过您下次消息仍没有启用 Pidgin-"
+#~ "Encryption 加密功能"
+
+#~ msgid "Tx: secure"
+#~ msgstr "传送: 密文"
+
+#~ msgid ""
+#~ "Your next outgoing message will be encrypted  by the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr "下一条送出的消息将会被 Pidgin-Encryption 加密"
+
+#~ msgid "Tx: plain"
+#~ msgstr "传送: 明文"
+
+#~ msgid ""
+#~ "Your next outgoing message will NOT be encrypted  by the Pidgin-"
+#~ "Encryption plugin"
+#~ msgstr "下一条送出的消息将不会被 Pidgin-Encryption 加密"
+
+#~ msgid "Rx: secure"
+#~ msgstr "接收: 密文"
+
+#~ msgid "Rx: plain"
+#~ msgstr "接收: 明文"
+
+#~ msgid ""
+#~ "The last message received was NOT encrypted  with the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr "上一条已收到的消息没有使用 Pidgin-Encryption 加密"
+
+#~ msgid ""
+#~ "Compiled with '%s', running with '%s'.  Pidgin-Encryption will probably "
+#~ "not run right.\n"
+#~ msgstr ""
+#~ "使用 '%s' 编译, 在 '%s' 下执行.  Pidgin-Encryption 不一定可以正确运行.\n"
+
+#~ msgid ""
+#~ "Pidgin-Encryption plugin was compiled with a different version of "
+#~ "Pidgin.  You may experience problems."
+#~ msgstr "Pidgin-Encryption 插件是由不同的 Pidgin 编译. 您可能会碰到一些问题."
+
+#~ msgid "Currently cached keys"
+#~ msgstr "目前使用中的密钥"
+
+#~ msgid "Key Type"
+#~ msgstr "密钥类型"
+
+#~ msgid "Protocol"
+#~ msgstr "协议"
+
+#~ msgid "private"
+#~ msgstr "私钥"
+
+#~ msgid "public"
+#~ msgstr "公钥"
+
+#~ msgid "Error parsing RSANSS nonce/key\n"
+#~ msgstr "处理 RSANSS nonce/key 时发生错误\n"
+
+#~ msgid "Error decoding Base64 RSANSS Public key\n"
+#~ msgstr "处理 RSANSS 公钥的 Base64 部份时发生错误\n"
+
+#~ msgid "Error Base64 decoding RSANSS Public key\n"
+#~ msgstr "处理 RSANSS 公钥的 Base64 部份时发生错误\n"
+
+#~ msgid "Error decoding RSANSS Public key\n"
+#~ msgstr "处理 RSANSS 公钥 时发生错误\n"
+
+#~ msgid "Error parsing RSANSS Private key\n"
+#~ msgstr "处理 RSANSS 私钥时发生错误\n"
+
+#~ msgid "Error parsing Base64 in RSANSS Private Key\n"
+#~ msgstr "处理 RSANSS 私钥的 Base64 部份时发生错误\n"
+
+#~ msgid "Error creating symmetric key: unable to load private key\n"
+#~ msgstr "建立对称密钥时发生错误: 无法载入私钥\n"
+
+#~ msgid "Error decoding RSANSS Private key\n"
+#~ msgstr "处理 RSANSS 私钥时发生错误\n"
+
+#~ msgid "No Nonce in message\n"
+#~ msgstr "消息内无 Nonce \n"
+
+#~ msgid "Bad Nonce in message\n"
+#~ msgstr "消息内的 Nonce 不正确\n"

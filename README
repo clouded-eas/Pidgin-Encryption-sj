@@ -1,0 +1,7 @@
+Pidgin/Gaim encryption plugin utilizing the SkipJack cipher.
+Eric A. Schulman, eas@linux.com - 2010
+
+-
+Usage; 
+
+git clone git@github.com:notrael/Pidgin-Encryption-sj.git

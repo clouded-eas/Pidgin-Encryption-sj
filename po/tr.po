@@ -1,0 +1,472 @@
+# Pidgin-Encryption Turkish Translation
+# Copyright (C) 2006 Ekrem Erdem
+# This file is distributed under the Gnu Public License
+# Ekrem Erdem <e2erdem@gmail.com>, 2006
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-Encryption 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2006-02-27 15:18+0200\n"
+"Last-Translator: Ekrem Erdem <e2erdem@gmail.com>\n"
+"Language-Team: Turkish <tr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Yanlış anahtar uzunluğu"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "512 bitten küçük anahtarlar ÇOK güvensizdir"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"4096 bitten büyük anahtarlar mesajı\n"
+"oldukça fazla şişirir, mesaj iletiminde\n"
+"problem yaratır"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Anahtar yarat"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Tekrar yaratmak için anahtar seçilmedi!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "TAMAM"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Şifreleme protokolü:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Anahtar uzunluğu:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "İptal"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "Tamam"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Anahtarı Sil"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Hesap"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Ad"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Bitler"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Anahtar Parmakizi"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Konfigürasyon"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Dosyada anahtar yoksa otomatik olarak kabul et"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Çakışan anahtarları otomatik olarak kabul et (güvenlik riski)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Şifreli bir mesaj gönderildiğinde otomatik olarak şifrele"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Tümegönderim şifreleme kabiliyeti"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Eğer arkadaşın eklentisi varsa otomatik olarak şifrele"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Kilit ikonunu sohbetin her satırı için göster"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Anahtar konumu"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Anahtar dosyalarını yarat"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Anahtarı Tekrar Yarat"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Parmakizini Panoya Kopyala"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Yerel Anahtarlar"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Güvenilir Arkadaş Anahtarları"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Aktif Anahtarlar"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Belirtilen konumda anahtar dosyası yok"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Tam yol gerekli"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Anahtar dosyaları yaratılamadı"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Geçersiz Base64 verisi, uzunluk %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "Bu hesabın anahtarı bu protokol için çok büyük. Gönderilemedi."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Son gönderilen mesaj tam alınamadı- tekrar ayarlanıyor"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Alınan mesaj yanlış anahtarla şifrelenmiş"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Şifre çözmede hata- tekrar isteniyor..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Anahtar isteniyor..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "Mesajı tekrar göndermek için anahtar yok. Mesaj kayboldu."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Gönderdiğiniz mesaj kayboldu."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-Şifreleme"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Sohbetleri RSA algoritması ile şifreler."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"RSA, Mozilla NSS kripto kütüphanesini kullanarak 4096 bite kadar çıkan "
+"anahtarlarla şifreleme yapar.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins, çeviren Ekrem Erdem"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Otomatik-Şifrelemeyi Kapat"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Otomatik-Şifrelemeyi Aç"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Yeni anahtar çifti oluşturuluyor..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Anahtar yaratılmaya çalışılırken hata."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Çakışan Anahtar Alındı!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"%s dosyası için erişim modu değiştirilirken hata:\n"
+"Anahtar kaydedilemiyor."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"%s dosyası için erişim modu değiştirilirken hata (2) :\n"
+"Anahtar kaydedilemiyor."
+
+#: keys.c:484
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"%s anahtar dosyası için hatalı izinler: \n"
+"Pidgin-Şifreleme anahtarları herkes ya da grup tarafından erişilebilecek\n"
+"bir  dosyaya kaydetmeyecek."
+
+#: keys.c:746
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"%s anahtar dosyası için hatalı izinler: \n"
+"Pidgin-Şifreleme anahtarları herkes ya da grup tarafından erişilebilecek\n"
+"bir  dosyaya kaydetmeyecek."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Pidgin-Şifreleme Anahtarı Alındı"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "'%s' için %s anahtarı alındı"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Anahtar Parmakizi:%*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Bu anahtarı kabul etmek istiyor musunuz?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Hayır"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Kabul et ve Kaydet"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Sadece bu oturum için"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "ÇAKIŞAN Pidgin-Şifreleme Anahtarı Alındı"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* UYARI ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "'%s' için ÇAKIŞAN %s anahtarı alındı!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Bu bir man-in-the-middle saldırısı olabilir\n"
+"ya da birisi arkadaşınız olduğunu iddia ediyor olabilir.\n"
+"Bu anahtara güvenmeden önce arkadaşınızla\n"
+"birlikte bu yeni anahtarı onun yaratıp yaratmadığını\n"
+"kontrol etmelisiniz."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "%s için RSA Anahtar Çifti Yaratılıyor"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Bu işlem biraz sürebilir..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Anahtar yaratılamadı. NSS Hatası: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "RSANSS anahtarı ayrıştırılırken hata\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Mesajda yanlış imza (len %d, mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Şifrelemeyi Aktifleştir"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Şifrelemeyi Durdur"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr "Alınan son mesaj Pidgin-Şifreleme eklentisi tarafından şifrelenmiş"
+
+#, fuzzy
+#~ msgid "Encrypt Outgoing Messages"
+#~ msgstr "Gönderileni Şifrele"
+
+#~ msgid "Tx: capable"
+#~ msgstr "Tx: kabiliyetli"
+
+#~ msgid ""
+#~ "Your buddy appears to have the Pidgin-Encryption plugin. Still, your next "
+#~ "outgoing message will NOT be encrypted  by the Pidgin-Encryption plugin"
+#~ msgstr ""
+#~ "Arkadaşınız Pidgin-Şifreleme eklentisine sahip gözüküyor. Yine de sonraki "
+#~ "mesajınız Pidgin-Şifreleme eklentisi tarafından ŞİFRELENMEYECEK"
+
+#~ msgid "Tx: secure"
+#~ msgstr "Tx: güvenli"
+
+#~ msgid ""
+#~ "Your next outgoing message will be encrypted  by the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Sonraki mesajınız Pidgin-Şifreleme eklentisi tarafından şifrelenecek"
+
+#~ msgid "Tx: plain"
+#~ msgstr "Tx: açık"
+
+#~ msgid ""
+#~ "Your next outgoing message will NOT be encrypted  by the Pidgin-"
+#~ "Encryption plugin"
+#~ msgstr ""
+#~ "Sonraki mesajınız Pidgin-Şifreleme eklentisi tarafından ŞİFRELENMEYECEK"
+
+#~ msgid "Rx: secure"
+#~ msgstr "Rx: güvenli"
+
+#~ msgid "Rx: plain"
+#~ msgstr "Rx: açık"
+
+#~ msgid ""
+#~ "The last message received was NOT encrypted  with the Pidgin-Encryption "
+#~ "plugin"
+#~ msgstr ""
+#~ "Alınan son mesaj Pidgin-Şifreleme eklentisi tarafından ŞİFRELENMEMİŞ"
+
+#~ msgid "Currently cached keys"
+#~ msgstr "Alınmış anahtarlar"
+
+#~ msgid "Key Type"
+#~ msgstr "Anahtar Tipi"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokol"
+
+#~ msgid "private"
+#~ msgstr "gizli"
+
+#~ msgid "public"
+#~ msgstr "açık"
+
+#~ msgid ""
+#~ "Compiled with '%s', running with '%s'.  Pidgin-Encryption will probably "
+#~ "not run right.\n"
+#~ msgstr ""
+#~ "'%s' ile derlendi, '%s' ile çalışıyor. Pidgin-Şifreleme muhtemelen doğru "
+#~ "çalışmayacak.\n"
+
+#~ msgid ""
+#~ "Pidgin-Encryption plugin was compiled with a different version of "
+#~ "Pidgin.  You may experience problems."
+#~ msgstr ""
+#~ "Pidgin-Şifreleme eklentisi farklı bir Pidgin versiyonu ile derlendi. "
+#~ "Problem yaşayabilirsiniz."
+
+#~ msgid "Can't load the NSS plugin\n"
+#~ msgstr "NSS eklentisi yüklenemiyor\n"
+
+#~ msgid ""
+#~ "Pidgin was not compiled with the NSS plugin enabled.  Pidgin-Encryption "
+#~ "requires the NSS plugin to function."
+#~ msgstr ""
+#~ "Pidgin NSS eklentisini kullanacak tarzda derlenmedi. Pidgin-Şifreleme bu "
+#~ "fonksiyon için NSS eklentisine ihtiyaç duyuyor."
+
+#~ msgid "Error parsing RSANSS nonce/key\n"
+#~ msgstr "RSANSS nonce değeri/anahtar ayrıştırılırken hata\n"
+
+#~ msgid "Error decoding Base64 RSANSS Public key\n"
+#~ msgstr "Base64 RSANSS Açık anahtarı çözülürken hata\n"
+
+#~ msgid "Error Base64 decoding RSANSS Public key\n"
+#~ msgstr "RSANSS Açık anahtarı çözülürken Base64 hatası\n"
+
+#~ msgid "Error decoding RSANSS Public key\n"
+#~ msgstr "RSANSS Açık anahtarı çözülürken hata\n"
+
+#~ msgid "Error parsing RSANSS Private key\n"
+#~ msgstr "RSANSS Gizli anahtarı ayrıştırılırken hata\n"
+
+#~ msgid "Error parsing Base64 in RSANSS Private Key\n"
+#~ msgstr "RSANSS Gizli Anahtarından Base64 ayrıştırılırken hata\n"
+
+#~ msgid "Error creating symmetric key: unable to load private key\n"
+#~ msgstr "Simetrik anahtar oluşturulurken hata: Gizli anahtar yüklenemedi\n"
+
+#~ msgid "Error decoding RSANSS Private key\n"
+#~ msgstr "RSANSS Gizli anahtarı çözülürken hata\n"
+
+#~ msgid "No Nonce in message\n"
+#~ msgstr "Mesajda Nonce değeri yok\n"
+
+#~ msgid "Bad Nonce in message\n"
+#~ msgstr "Mesajda yanlış Nonce değeri\n"

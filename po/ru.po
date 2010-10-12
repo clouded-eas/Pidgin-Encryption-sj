@@ -1,0 +1,363 @@
+# Russian translation of Pidgin-Encryption.
+# Copyright (C) 2004 William Tompkins
+# This file is distributed under the same license as the Pidgin-Encryption package.
+# Roman Sosenko <coloc75@yahoo.com>, 2004.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-Encryption 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2006-01-10 09:08+0100\n"
+"Last-Translator: Roman Sosenko <coloc75@yahoo.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Неправильный размер ключа"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Ключи < 512 бит КРАЙНЕ опасны"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Ключи > 4096 бит могут сильно\n"
+"увеличивать сообщения, вызывая проблемы\n"
+"передачи"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Создание ключей"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Выберете ключ для повторного генерирования!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "ОК"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Протокол кодирования:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Размер ключа:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Отменить"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "ОК"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Удалить ключ"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Эккаунт"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Имя"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Размер (биты)"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Отпечаток ключа"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Конфиг."
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "При отсутсвии ключа в файле ввести ключ автоматически "
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Автоматически ввести конфликтующий ключ (небезопасно)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Автоматически кодировать, если отправлено закодированое сообщение"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Транслировать способность кодирования"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Автоматически кодировать, если у контакта имеется модуль"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr ""
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Место расположения файла ключа"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Создать файл ключа"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Создать ключ заново"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Скопировать отпечаток в буфер обмена данными"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Локальные ключи"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Ключи надёжного контакта"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Ключи нового контакта"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Файл ключа не найден"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Необходим абсолютный путь"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Невозможно создать файлы ключа"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Данные в Base64 неверны, размер %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "Этот ключ слишком большой для данного протокола. Невозможно отправить."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Последнее исходящее сообщение  получено с ошибкой. Перенастройка"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Полученое сообщение было закодировано при помощи неправильного ключа"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Ошибка при декодировании, просьба отправить заново..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Запрос ключа..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "Отсутсвие ключа для повторной отправки. Сообщение утеряно."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Исходящее сообщение утеряно."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-Encryption"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Кодирует разговоры по методу RSA."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"Кодирование по методу RSA с ключами до 4906 бит с использованием  библиотеки "
+"шифров Mozilla NSS.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Билл Томпкинс, перевод Романа Сосенко"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Отключить автокодирование"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Включить автокодирование"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Создание новой пары ключей..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Ошибка при попытке создания ключа."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Получен конфликтующий ключ!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Ошибка при изменении права доступа к файлу: %s\n"
+"Невозможность сохранить ключ."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Ошибка (2) при изменении права доступа к файлу: %s\n"
+"Невозможность сохранить ключ"
+
+#: keys.c:484
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Неправильные права доступа к файлу с ключами: %s\n"
+"Pidgin-Encryption не сохранит ключи в общедоступном файле либо файле, "
+"доступном групе."
+
+#: keys.c:746
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Неправильные права доступа к файлу с ключами: %s\n"
+"Pidgin-Encryption не сохранит ключи в общедоступном файле либо файле, "
+"доступном групе."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Получен ключ Pidgin-Encryption"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "Получен %s ключ для '%s'"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Отпечаток ключа: %*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Вы хотите ввести данный ключ?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Нет"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Ввести и сохранить"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Только для данной сессии"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "Получен конфликтующий ключ Pidgin-Encryption"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* ВНИМАНИЕ ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "Получен КОНФЛИКТУЮЩИЙ %s ключ для '%s'!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Возможно, произошла аттака \"man-in-th-middle\" или\n"
+" кто-то выдаёт себя за вашего контакта.\n"
+"Вы должны проверить, действительно ли ваш контакт создал этот ключ, прежде "
+"чем использовать его."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Создание пары ключей  RSA  для %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Это может занять немного времени..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Невозможность создать ключ. Ошибка NSS: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Ошибка при анализе  ключа сессии RSANSS\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Неправильная подпись сообщения (размер %d, модуль %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+#, fuzzy
+msgid "Enable Encryption"
+msgstr "Pidgin-Encryption"
+
+#: state_ui.c:146
+#, fuzzy
+msgid "Disable Encryption"
+msgstr "Pidgin-Encryption"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr ""
+
+#~ msgid "Encrypt Outgoing"
+#~ msgstr "Закодировать исходящее сообщение"

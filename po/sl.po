@@ -1,0 +1,364 @@
+# Pidgin-encryption po file for Slovenian.
+# Copyright (C) 2004 Martin Srebotnjak
+# This file is distributed under the GPL
+# Martin Srebotnjak <miles@filmsi.net>, Ljubljana 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Šifriranje Pidgin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2007-09-22 15:54+0100\n"
+"Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
+"Language-Team: Martin Srebotnjak, LUGOS <miles@filmsi.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Napačna velikost ključa"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Ključi < 512 bitov SPLOH niso varni"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Ključi > 4096 bitov povzročajo izjemno\n"
+"smetenje s sporočili, povzročajo težave\n"
+"pri prenosu sporočil."
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Ustvari ključe"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Noben ključ ni izbran za ponovno tvorbo!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "V redu"
+
+#  First column
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Protokol šifriranja:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Velikost ključa:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Razveljavi"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "V redu"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Izbriši ključ"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Račun"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Ime"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "bitov"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Prstni odtis ključa"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Nastavitve"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Sprejmi ključ samodejno, če ni shranjenega ključa"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Sprejmi nasprotujoče ključe samodejno (varnostno tveganje)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Samodejno šifriraj, če je bilo prejeto sporočilo šifrirano"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Sposobnost šifriranja distribucije"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Samodejno šifriraj, če ima prijatelj vstavek"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Pokaži ikono zaklepa za vsako vrstico klepeta"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Mesto datoteke ključa"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Ustvari datoteke s ključi"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Ponovno ustvari ključ"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Kopiraj prstni odtis v odložišče"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Krajevni ključi"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Zaupanja vredni ključi prijatelja"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Nazadnje uporabljeni ključi prijatelja"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Na poti ni najdenih datotek s ključi"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Potrebna je absolutna pot"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Datotek s ključi ni mogoče ustvariti"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Napačni podatki Base64, dolžina %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "Ključ računa je prevelik za ta protokol. Pošiljanje ni možno."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Zadnje odhodno sporočilo ni bilo pravilno sprejeto - ponastavljanje"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Prejeto sporočilo je šifrirano z napačnim ključem"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Napaka v dešifriranju - prošnja za ponovno pošiljanje ..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Zahtevanje ključa ..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "Ni ključa za ponovno pošiljanje sporočila. Sporočilo je izgubljeno."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Odhodno sporočilo je bilo izgubljeno."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Šifriranje Pidgin"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Šifrira pogovore s šifriranjem RSA."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"Šifriranje RSA s ključi do 4096 bitov z uporabo šifrirne knjižnice Mozilla "
+"NSS.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins, prevedel Martin Srebotnjak"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Izključi samodejno šifriranje"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Vključi samodejno šifriranje"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Ustvarjanje novega para ključev ..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Napaka pri ustvarjanju ključa."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Prejet nasprotujoč ključ!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Napaka pri spreminjanju dostopnega načina za datoteko: %s\n"
+"Ključa ni mogoče shraniti."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Napaka (2) pri spreminjanju dostopnega načina za datoteko %s\n"
+"Ključa ni mogoče shraniti."
+
+#: keys.c:484
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Spremenjena dovoljenja za datoteko ključa: %s\n"
+"Šifriranje Pidgin ne bo shranilo ključev v datoteko, ki bo na voljo vsem ali "
+"skupini."
+
+#: keys.c:746
+#, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Spremenjena dovoljenja za datoteko ključa: %s\n"
+"Šifriranje Pidgin ne bo shranilo ključev v datoteko, ki bo na voljo vsem ali "
+"skupini."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Sprejet ključ za Šifriranje Pidgin"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "Ključ %s sprejet za '%s'"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Prstni podpis ključa: %*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Želite sprejeti ta ključ?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Ne"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Sprejmi in shrani"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Samo to sejo"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "Sprejet NASPROTUJOČ ključ za Šifriranje Pidgin"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* OPOZORILO ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "Sprejet NASPROTUJOČ ključ %s za '%s'!"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"To bi lahko bil napad vmesne osebe ali\n"
+"pa bi se nekdo lahko predstavljal kot vaš prijatelj.\n"
+"Preverite pri prijatelju, da vidite, če je\n"
+"ustvaril ta nov ključ, preden mu zaupate."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Tvorba para ključev RSA za %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Tole lahko malce traja ..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Tvorba ključa ni možna. Napaka NSS: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Napaka pri obdelavi ključa RSANSS\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Slab podpis sporočila (len %d, mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Omogoči šifriranje"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Onemogoči šifriranje"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr ""
+"Zadnje prejeto sporočilo je bilo šifrirano z vtičnikom Šifriranje Pidgin"

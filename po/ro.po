@@ -1,0 +1,359 @@
+# Romanian translation for Pidgin-Encryption.
+# Copyright (C) 2006, Mişu Moldovan <dumol@gnome.ro>
+# This file is distributed under the same license as the Pidgin-Encryption package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-Encryption 3.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2006-03-05 00:17+0200\n"
+"Last-Translator: Mişu Moldovan <dumol@gnome.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Mărime greşită cheie"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Cheile mai mici de 512 octeţi sunt FOARTE nesigure"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Cheile mai mari de 4096 octeţi vor duce\n"
+"la supradimensionarea mesajelor provocând\n"
+"probleme de transmisie a datelor."
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Generează chei"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Nici o cheie nu a fost selectată pentru regenerare!"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "OK"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Protocol criptare:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Mărime cheie:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Renunţă"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "Ok"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Şterge cheia"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Cont"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Nume"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Octeţi"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Amprentă cheie"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Configurare"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Acceptă automat o cheie dacă nu există una salvată"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Acceptă automat chei greşite (prezintă riscuri de securitate)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Criptează automat dacă s-a trimis un mesaj criptat"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Anunţă tuturor contactelor facilităţile de criptare"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Criptează automat pentru contactele ce au acest modul"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Evidenţiază toate replicile criptate din discuţii"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Locaţie fişier chei:"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Creează fişierele cheie"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Regenerează cheia"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Copiază amprenta în clipboard"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Chei locale"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Chei de încredere"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Chei recente"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Nu s-au găsit chei în calea dată"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "E nevoie de o cale absolută"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Nu se pot crea fişierele cheie"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Date „Base64” invalide, lungimea %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr ""
+"Cheia acestui cont este prea mare pentru acest protocol. Nu se poate trimite."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Ultimul mesaj trimis nu a fost primit corect, resetare"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Mesajul primit a fost criptat cu o cheie greşită"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Eroare la decriptare, se cere retrimiterea mesajului"
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Se verifică cheia contactului..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr ""
+"Nici o cheie nu e disponibilă pentru retrimiterea mesajului. Mesajul nu a "
+"ajuns la destinaţie."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Mesajul trimis nu a ajuns la destinaţie."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Criptare Pidgin"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Criptează discuţiile Pidgin utilizând algoritmul RSA"
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"Criptare RSA cu chei de până la 4096 octeţi, utilizând bibliotecile de "
+"criptare Mozilla NSS.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins (localizare: Mişu Moldovan)"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Fără criptare automată"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Criptare automată"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Se creează o nouă pereche de chei..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Eroare la crearea cheii."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Cheia primită nu corespunde cu cea salvată!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Eroare la schimbarea drepturilor de acces ale fişierului: %s\n"
+"Nu se poate salva cheia."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Eroare 2 la schimbarea drepturilor de acces ale fişierului: %s\n"
+"Nu se poate salva cheia."
+
+#: keys.c:484
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Drepturi de acces greşite pentru fişierul cheie: %s\n"
+"Modulul de criptare Pidgin nu va salva chei într-un fişier accesibil unui "
+"grup sau oricărui alt utilizator."
+
+#: keys.c:746
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Drepturi de acces greşite pentru fişierul cheie: %s\n"
+"Modulul de criptare Pidgin nu va salva chei într-un fişier accesibil unui "
+"grup sau oricărui alt utilizator."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Cheie de criptare Pidgin"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "Cheie %s primită pentru „%s”"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Amprentă cheie:%*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Doriţi să acceptaţi această cheie?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Nu"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Acceptă şi salvează"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Doar sesiunea asta"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "S-a primit o cheie de criptare Pidgin GREŞITĂ"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* ATENŢIE ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "S-a primit o cheie %s greşită pentru „%s”"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Ar putea să fie vorba despre un atack „man-in-the-middle”,\n"
+"când cineva încearcă să se dea drept un alt contact.\n"
+"Ar trebui să verificaţi dacă respectivul contact şi-a\n"
+"generat această nouă cheie înainte de a-i acorda încredere."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Se generează o pereche de chei RSA pentru %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Aceasta s-ar putea să dureze puţin..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Nu s-a putut genera cheia. Eroare NSS: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Eroare la prelucrarea cheii RSANSS\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Semnătură greşită pentru acest mesaj (lungime %d, mod%d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Activare criptare"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Dezactivare criptare"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr "Ultimul mesaj primit a fost criptat utilizând modulul Criptare Pidgin"

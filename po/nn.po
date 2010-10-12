@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pidgin-kryptering\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-26 00:52-0400\n"
+"PO-Revision-Date: 2006-03-05 17:19+0100\n"
+"Last-Translator: Yngve Spjeld Landro <nynorsk@fastmail.fm>\n"
+"Language-Team:  <nynorsk@strilen.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian Nynorsk\n"
+"X-Poedit-Country: norw\n"
+"X-Poedit-Basepath: j:\\pidgin\n"
+
+#: config_ui.c:89
+msgid "Bad key size"
+msgstr "Ugyldig nøkkelstorleik"
+
+#: config_ui.c:95
+msgid "Keys < 512 bits are VERY insecure"
+msgstr "Nøklar < 512 bitar er SÆRS utrygge"
+
+#: config_ui.c:101
+msgid ""
+"Keys > 4096 bits will cause extreme\n"
+"message bloat, causing problems with\n"
+"message transmission"
+msgstr ""
+"Nøklar > 4096 bitar vil føra til \n"
+"kraftig auka meldingsstorleik. Dette\n"
+"kan gje problem med sendinga"
+
+#: config_ui.c:162
+msgid "Generate Keys"
+msgstr "Lag nøklar"
+
+#: config_ui.c:172
+msgid "No key selected to re-generate!"
+msgstr "Ingen nøkkel er valt for regenerering"
+
+#: config_ui.c:180
+msgid "OK"
+msgstr "OK"
+
+#. First column
+#: config_ui.c:196
+msgid "Encryption protocol:"
+msgstr "Krypteringsprotokoll:"
+
+#: config_ui.c:203
+msgid "Key size:"
+msgstr "Nøkkelstorleik:"
+
+#: config_ui.c:245
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: config_ui.c:252 state_ui.c:541
+msgid "Ok"
+msgstr "OK"
+
+#: config_ui.c:284 config_ui.c:328 config_ui.c:549 config_ui.c:584
+#: config_ui.c:612
+msgid "Delete Key"
+msgstr "Slett nøkkel"
+
+#: config_ui.c:396
+msgid "Account"
+msgstr "Konto"
+
+#: config_ui.c:398
+msgid "Name"
+msgstr "Namn"
+
+#: config_ui.c:402
+msgid "Bits"
+msgstr "Bitar"
+
+#: config_ui.c:405
+msgid "Key Fingerprint"
+msgstr "Nøkkelfingeravtrykk"
+
+#: config_ui.c:498
+msgid "Config"
+msgstr "Konfig"
+
+#: config_ui.c:500
+msgid "Accept key automatically if no key on file"
+msgstr "Godta nøkkel automatisk dersom ingen nøkkel i fila"
+
+#: config_ui.c:503
+msgid "Accept conflicting keys automatically (security risk)"
+msgstr "Godta motstridande nøklar automatisk (tryggleiksrisiko)"
+
+#: config_ui.c:506
+msgid "Automatically encrypt if sent an encrypted message"
+msgstr "Krypter automatisk om motteken melding var kryptert"
+
+#: config_ui.c:509
+msgid "Broadcast encryption capability"
+msgstr "Kringkast krypteringsevne"
+
+#: config_ui.c:512
+msgid "Automatically encrypt if buddy has plugin"
+msgstr "Krypter automatisk om nettvenn har programtillegget"
+
+#: config_ui.c:515
+msgid "Show lock icon for each line of chat"
+msgstr "Vis låsikon på kvar linje"
+
+#: config_ui.c:518
+msgid "Keyfile location"
+msgstr "Nøkkelfilplassering"
+
+#: config_ui.c:525
+msgid "Create key files"
+msgstr "Lag nøkkelfiler"
+
+#: config_ui.c:556
+msgid "Regenerate Key"
+msgstr "Lag nøkkel på nytt"
+
+#: config_ui.c:563 config_ui.c:591 config_ui.c:619
+msgid "Copy Fingerprint to Clipboard"
+msgstr "Kopier fingeravtrykk til utklippstavla"
+
+#: config_ui.c:571
+msgid "Local Keys"
+msgstr "Lokale nøklar"
+
+#: config_ui.c:599
+msgid "Trusted Buddy Keys"
+msgstr "Tiltrudde nettvennøklar"
+
+#: config_ui.c:627
+msgid "Recent Buddy Keys"
+msgstr "Nyleg nytta nettvennøklar"
+
+#: config_ui.c:658
+msgid "No key files found at path"
+msgstr "Fann ingen nøkkelfiler i filbana"
+
+#: config_ui.c:667
+msgid "Absolute path required"
+msgstr "Må nytta absolutt filbane"
+
+#: config_ui.c:678
+msgid "Unable to create key files"
+msgstr "Klarte ikkje å laga nøkkelfiler"
+
+#: cryptutil.c:132
+#, fuzzy, c-format
+msgid "Invalid Base64 data, length %u\n"
+msgstr "Ugyldig Base64-data, lengd %d\n"
+
+#: encrypt.c:213
+msgid "This account key is too large for this protocol. Unable to send."
+msgstr "Kontonøkkelen er for stor for denne protokollen. Klarer ikkje å senda."
+
+#: encrypt.c:672
+msgid "Last outgoing message not received properly- resetting"
+msgstr "Siste utgåande meldinga blei ikkje skikkeleg motteken - nullstiller"
+
+#: encrypt.c:757
+msgid "Received message encrypted with wrong key"
+msgstr "Den mottekne meldinga var kryptert med feil nøkkel"
+
+#: encrypt.c:794
+msgid "Error in decryption- asking for resend..."
+msgstr "Feil i dekrypteringa - ber om ny sending ..."
+
+#: encrypt.c:941
+msgid "Requesting key..."
+msgstr "Spør etter nøkkel ..."
+
+#: encrypt.c:1075
+msgid "No key to resend message.  Message lost."
+msgstr "Ingen nøkkel til å senda meldinga om att. Meldinga er vekke."
+
+#: encrypt.c:1128
+msgid "Outgoing message lost."
+msgstr "Utgåande melding er vekke."
+
+#: encrypt.c:1429
+msgid "Pidgin-Encryption"
+msgstr "Pidgin-Encryption"
+
+#: encrypt.c:1430
+msgid "Encrypts conversations with RSA encryption."
+msgstr "Krypterer samtaler med RSA-kryptering."
+
+#: encrypt.c:1431
+msgid ""
+"RSA encryption with keys up to 4096 bits, using the Mozilla NSS crypto "
+"library.\n"
+msgstr ""
+"RSA-kryptering med nøklar inntil 4096 bitar. Bruker Mozilla NSS-"
+"kryptobiblioteket.\n"
+
+#. Translators: Feel free to add your name to the author field, with text like
+#. "Bill Tompkins, translation by Phil McGee"
+#: encrypt.c:1435
+msgid "Bill Tompkins"
+msgstr "Bill Tompkins, omsetjing ved Y J Landro (nynorsk@strilen.net)"
+
+#: pe_blist.c:67
+msgid "Turn Auto-Encrypt Off"
+msgstr "Slå av auto-kryptering"
+
+#: pe_blist.c:70
+msgid "Turn Auto-Encrypt On"
+msgstr "Slå på auto-kryptering"
+
+#: keys.c:98
+msgid "Making new key pair..."
+msgstr "Lagar nytt nøkkelpar ..."
+
+#: keys.c:115
+msgid "Error trying to make key."
+msgstr "Feil: klarte ikkje å laga ny nøkkel."
+
+#: keys.c:280
+msgid "Conflicting Key Received!"
+msgstr "Motteke motstridande nøkkel!"
+
+#: keys.c:460
+#, c-format
+msgid ""
+"Error changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Feil ved skifte av tilgangsmodus for fila: %s\n"
+"Klarer ikkje å lagra nøkkelen."
+
+#: keys.c:469
+#, c-format
+msgid ""
+"Error (2) changing access mode for file: %s\n"
+"Cannot save key."
+msgstr ""
+"Feil (2) ved skifte av tilgangsmodus for fila: %s\n"
+"Klarer ikkje å lagra nøkkelen."
+
+#: keys.c:484
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not save keys to a world- or group-accessible file."
+msgstr ""
+"Ugyldige tilgangar til nøkkelfila: %s\n"
+"Pidgin-Encryption vil ikkje lagra nøklar i ei fil som er tilgjengeleg for "
+"alle eller gruppe."
+
+#: keys.c:746
+#, fuzzy, c-format
+msgid ""
+"Permissions on key file changed for: %s\n"
+"Pidgin-Encryption will not use keys in a world- or group-accessible file."
+msgstr ""
+"Ugyldige tilgangar til nøkkelfila: %s\n"
+"Pidgin-Encryption vil ikkje lagra nøklar i ei fil som er tilgjengeleg for "
+"alle eller gruppe."
+
+#: keys_ui.c:127
+msgid "Pidgin-Encryption Key Received"
+msgstr "Motteke Pidgin-Encryption-nøkkel"
+
+#: keys_ui.c:137
+#, c-format
+msgid "%s key received for '%s'"
+msgstr "%s-nøkkel motteken for '%s'"
+
+#: keys_ui.c:144 keys_ui.c:246
+#, c-format
+msgid "Key Fingerprint:%*s"
+msgstr "Nøkkelfingeravtrykk: %*s"
+
+#: keys_ui.c:151 keys_ui.c:266
+msgid "Do you want to accept this key?"
+msgstr "Vil du godta denne nøkkelen?"
+
+#: keys_ui.c:161 keys_ui.c:276
+msgid "No"
+msgstr "Nei"
+
+#: keys_ui.c:169 keys_ui.c:284
+msgid "Accept and Save"
+msgstr "Godta og lagra"
+
+#: keys_ui.c:177 keys_ui.c:292
+msgid "This session only"
+msgstr "Berre denne økta"
+
+#: keys_ui.c:224
+msgid "CONFLICTING Pidgin-Encryption Key Received"
+msgstr "Motteke MOTSTRIDANDE Pidgin-Encryption-nøkkel"
+
+#: keys_ui.c:234 keys_ui.c:253
+msgid " ******* WARNING ******* "
+msgstr " ******* ÅTVARING ******* "
+
+#: keys_ui.c:239
+#, c-format
+msgid "CONFLICTING %s key received for '%s'!"
+msgstr "Motteke MOTSTRIDANDE %s-nøkkel for '%s'"
+
+#: keys_ui.c:258
+msgid ""
+"This could be a man-in-the-middle attack, or\n"
+"could be someone impersonating your buddy.\n"
+"You should check with your buddy to see if they have\n"
+"generated this new key before trusting it."
+msgstr ""
+"Dette kan vera eit mellommannsåtak eller\n"
+"nokon som prøer å framstå som nettvennen din.\n"
+"Du bør kontrollera med nettvennen din om han har\n"
+"laga ny nøkkel før du stolar på han."
+
+#: rsa_nss.c:247
+#, c-format
+msgid "Generating RSA Key Pair for %s"
+msgstr "Lagar RSA nøkkelpar for %s"
+
+#: rsa_nss.c:250
+msgid "This may take a little bit..."
+msgstr "Dette kan ta litt tid ..."
+
+#: rsa_nss.c:285
+#, c-format
+msgid "Could not generate key.  NSS Error: %d\n"
+msgstr "Klarte ikkje å laga nøkkel. NSS-feil: %d\n"
+
+#: rsa_nss.c:500 rsa_nss.c:510 rsa_nss.c:522 rsa_nss.c:532 rsa_nss.c:562
+#: rsa_nss.c:575 rsa_nss.c:596 rsa_nss.c:620
+msgid "Error parsing RSANSS key\n"
+msgstr "Feil ved lesinga av RSANSS-nøkkelen\n"
+
+#: rsa_nss.c:873
+#, c-format
+msgid "Bad signature on message (len %d, mod %d)\n"
+msgstr "Ugyldig signatur i meldinga (len %d, mod %d)\n"
+
+#: state_ui.c:106 state_ui.c:126
+msgid "Enable Encryption"
+msgstr "Slå på kryptering"
+
+#: state_ui.c:146
+msgid "Disable Encryption"
+msgstr "Slå av kryptering"
+
+#: state_ui.c:274
+msgid ""
+"The last message received was encrypted  with the Pidgin-Encryption plugin"
+msgstr ""
+"Den sist mottekne meldinga var kryptert med programtillegget Pidgin-"
+"Encryption"
