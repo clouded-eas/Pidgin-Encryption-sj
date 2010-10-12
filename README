@@ -1,6 +1,13 @@
 Pidgin/Gaim encryption plugin utilizing the SkipJack cipher.
 Eric A. Schulman, eas@linux.com - 2010
 
+
+Yeah, I know, I know.. "SkipJack?!? WHY?". 
+
+An algorithm named Skipjack forms part of the back-story to Dan Brown's 1998 novel Digital Fortress. In Brown's novel, Skipjack is proposed as the new "public-key encryption standard", along with a back door secretly inserted by the NSA ("a few lines of cunning programming") which would have allowed them to decrypt Skipjack using a secret password and thereby "read the world's email". However, when Skipjack is released for public peer review, a programmer discovers and announces the existence of the back door, effectively ending the chances of the standard being adopted. This is arguably similar to the Dual_EC_DRBG NSA controversy.
+
+http://en.wikipedia.org/wiki/Skipjack_(cipher)
+
 -
 Usage; 
 
