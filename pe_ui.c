@@ -10,8 +10,9 @@ void PE_ui_error(const char* err) {
    GtkWidget *dialog, *label;
    
    /* Create the widgets */
-   
-   dialog = gtk_dialog_new_with_buttons ("Pidgin-Encryption Error", 0, 0,
+  
+
+   sj = gtk_dialog_new_with_buttons ("Pidgin-Encryption Error", 0, 0,
                                          GTK_STOCK_OK,
                                          GTK_RESPONSE_NONE,
                                          NULL);
@@ -20,9 +21,12 @@ void PE_ui_error(const char* err) {
    g_signal_connect_swapped (GTK_OBJECT (dialog), 
                              "response", 
                              G_CALLBACK (gtk_widget_destroy),
-                             GTK_OBJECT (dialog));
+                             GTK_OBJECT (sj));
 
    gtk_container_add (GTK_CONTAINER (GTK_DIALOG(dialog)->vbox),
                       label);
-   gtk_widget_show_all (dialog);
+  /* gtk_widget_show_all (dialog); */
+     gtk_widget_show_all (sj);
+
+   
 }
